@@ -3,7 +3,7 @@ import screen_brightness_control as sbc
 def main():	
 	print(f"Current brightness value is {sbc.get_brightness()}")
 	# new_brightness = int(input("Enter new brightness value: "))
-	new_brightness = 1
+	new_brightness = 15
 	set_new_brightness = sbc.set_brightness(new_brightness)
 	print(f"New brightness value is {sbc.get_brightness()}")
 	print("==============================\n")

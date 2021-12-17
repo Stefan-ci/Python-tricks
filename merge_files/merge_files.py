@@ -4,7 +4,7 @@ import os
 pdf = PdfFileMerger()
 
 for file in os.listdir():
-	if file.endswith('.pdf'):
+	if file.endswith('.pdf') or file.endswith('.jpg'):
 		pdf.append(file)
 
 pdf.write("Merged_pdf.pdf")

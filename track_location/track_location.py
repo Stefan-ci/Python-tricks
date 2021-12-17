@@ -1,4 +1,4 @@
 import geocoder
 
-IP = geocoder.ip('me')
+IP = geocoder.ip('192.168.42.22')
 print(f"Your latitude and longitude are: {IP.latlng}")
